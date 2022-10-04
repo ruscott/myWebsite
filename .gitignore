@@ -1,0 +1,8 @@
+#Remove repositry for my info
+*member_info/
+
+#Remove images from beign upload
+*.jpg
+
+#Remove json from my repository
+*.json
