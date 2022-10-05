@@ -1,40 +1,56 @@
 <!DOCTYPE html>
 
+<!-- TO DO:
+    --Work out margins
+    --Make more interactive to website size
+    --Make boarder and photo better for header
+    --Fill in CV for worklife
+    -- -->
 <html lang="en">
 
 <link rel="stylesheet" href="myWebsite.css" type="text/css" />
 
-<h1> 
-    <center> 
-        <bold> 
-            Ruchika Scott 
-        </bold> 
-    </center> 
+<head>
+    <title> Ruchika Scott </title>
+</head>
+
+<body> 
+
+
+<h1 class="title"> 
+    <bold> 
+        Ruchika Scott 
+    </bold> 
 </h1>
 
-<center> 
-    <img src="ruchika_picture.jpg" alt="Personal Profile Photo" width="300" height=auto> 
-</center>
-
-<h2> 
-    About me 
-</h2>
-
-<p> 
-    I am a software engineer on the accelerator scheme at The Hut Group. 
-    This involves a 6month training programme into coding with a focus of Software Engineering. 
-    Please use this page to navigate through my work life and projects.
-</p>
-
-
-
-<h3> 
-    <a href="myWebsite_worklife.html"><alt>Work life</a> 
-</h3>
-
-<p>I graduated from the University of Sheffield in 2021 with first class in Mechanical Engineering </p>
+<div class="aboutme_comb">
+        <img class="aboutme_img" id="me_photo" src="ruchika_picture.jpg" alt="Personal Profile Photo">
+        <div class="aboutme_info">
+            <h2> 
+                About me 
+            </h2>
+            <p> 
+                I am a software engineer on the accelerator scheme at The Hut Group. 
+                This involves a 6month training programme into coding with a focus of Software Engineering. 
+                Please use this page to navigate through my work life and projects.
+            </p>
+    </div>
+</div>
 
 
-<h3> Personal life </h3>
+
+<div class=tab>
+    <h3 class="header"> 
+        <a href="myWebsite_worklife.html"><alt>Work life</a>  
+    </h3>
+    <h3 class="header">
+        Significant Projects
+    </h3>
+    <h3 class="header">
+        Personal Life
+    </h3>
+</div>
+
+</body>
 
 </html> 
