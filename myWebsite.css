@@ -1,11 +1,3 @@
-.personal_img {
-  flex: 1;
-  border-radius: 25px;
-  border-style: solid;
-  width: 10%;
-}
-
-
 .aboutme_comb {
   display: flex;
   align-items: flex-start;
@@ -14,9 +6,7 @@
 
 .aboutme_img{
   flex: 1;
-  border-radius: 25px;
-  border-style: solid;
-  align-self: center;
+  margin-left: 40px ;
 }
 
 .aboutme_info {
@@ -29,14 +19,18 @@
 }
 
 .aboutme_info p{
+  padding-bottom: 20px;
   padding: 0px;
-  margin: 0;
   padding-left: 40px;
+  padding-right: 20px;
+  margin: 0;
   text-align: left;
 }
 
 .aboutme_info h2{
   padding: 0px;
+  padding-bottom: 10px;
+  padding-top: 20px;
   padding-left: 40px;
   text-align: left;
   margin: 0;
@@ -44,6 +38,9 @@
 
 #me_photo {
   width: 10%;
+  border-radius: 30px;
+  border-style: solid;
+  align-self: center;
 }
 
 .tab {
@@ -54,25 +51,20 @@
 .header {
   flex: 1;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
+  font-size: 30px;
+  border-style: double;
+  border-color: rgb(49, 91, 162);
+  border-width: 7px;
 }
 
-.work {
-  flex: 1;
-  text-align: center;
+#left_table {
+  margin-left: 90px;
 }
 
-.projects {
-  flex: 1;
-  text-align: center;
+#right_table {
+  margin-right: 90px;
 }
-
-.personal {
-  flex: 1;
-  text-align: center;
-}
-
-
 
 .title {
   font-size: 500%;
@@ -85,8 +77,37 @@
   margin-left: 50px;
 }
 
+.button {
+  border-radius: 40px;
+  border-style: solid;
+  border-color: rgb(49, 91, 162);
+  padding: 10px;
+}
+
+.work_table {
+  margin: 20px;
+
+}
+
+.work_table tr {
+  margin: 20px;
+
+}
+
+a:link{ 
+  color: black;
+}
+
+a:hover {
+  color: rgb(137, 0, 23);
+}
+
+a:visited {
+  color: rgb(5, 29, 95);
+}
+
 body {
-    background-color: rgb(249, 247, 234);
+    background-color: rgb(218, 230, 244);
   }
   
   h1 {
@@ -95,30 +116,21 @@ body {
     text-align: center;
     font-family: Garamond;
     font-size: 4rem;
+    padding-left: 20px;
   }
+
+  h2 {
+    padding-left: 20px;
+    font-family: Garamond;
+    }
+  
+  h3 {
+    padding-left: 20px;
+    font-family: Garamond;
+    }
   
   p {
     font-family: verdana;
     font-size: 1rem;
-  }
-
-  p {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
-  }
-
-  h2 {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
-  }
-
-  h2 {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
+    padding-left: 20px;
   }
